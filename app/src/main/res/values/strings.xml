@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EcoReciclaje</string>
+
+    <!--titulos-->
+    <string name="newnotice">Se han inaugurado 28 de las 5.000 comunidades energéticas que se esperan para 2026</string>
+    <string name="newnotice2">El reto que plantea el agua salada en un mundo que necesita más agua potable</string>
+    <string name="newnotice3">¿Por qué Estados Unidos está planeando sacrificar a 450 mil búhos?</string>
+
+    <string-array name="spinner_Opciones">
+        <item>KA</item>
+        <item>A</item>
+        <item>MA</item>
+    </string-array>
+
+    <!--textos-->
+    <string name="text1">La estrategia, clave para la transición energética, empezó en noviembre de 2023. Pero, aún faltan elementos para que despegue.</string>
+    <string name="text2">Aunque hay varias técnicas para desalinizar, el gasto de energía y la gestión de los residuos que se generan plantean retos.</string>
+    <string name="text3">El Servicio de Pesca y Vida Silvestre de Estados Unidos presentó una propuesta en la que indica que es momento de eliminar parte de la población del búho barrado para salvar a otra especie.</string>
+    <string name="consejos_para_reducir_el_reciclaje">Consejos para reducir el reciclaje</string>
+
+    <string name="plastico">El reciclaje de plástico es crucial para reducir la contaminación ambiental y promover un uso sostenible de los recursos. Para maximizar la efectividad de tus esfuerzos de reciclaje de plástico, sigue estas recomendaciones: Antes de depositar los plásticos en el contenedor de reciclaje, asegúrate de limpiarlos y eliminar cualquier residuo de comida o bebida, ya que los restos orgánicos pueden contaminar el proceso de reciclaje. Aplasta las botellas y envases plásticos para ahorrar espacio y facilitar su transporte y procesamiento. Separa las tapas de las botellas, ya que
+            a menudo están hechas de un tipo de plástico diferente que requiere un procesamiento separado.</string>
+    <string name="vidrio">
+        Reciclar vidrio es esencial para el medio ambiente, ya que puede ser reutilizado infinitamente sin perder calidad. Para optimizar el reciclaje
+        de vidrio, asegúrate de limpiar las botellas y frascos antes de reciclarlos, eliminando residuos de alimentos y líquidos. Siempre que sea posible, separa el vidrio por colores (transparente, verde, ámbar) para facilitar el proceso. Evita reciclar cristales, espejos, cerámica, bombillas, y
+        vidrio de ventanas o cocina, ya que tienen diferentes composiciones y puntos de fusión.
+    </string>
+    <string name="Papel">Una sola hoja de papel puede ser insignificante. Sin embargo, el uso de miles de hojas al día causa
+        un grave daño al medio ambiente. Reducir, reutilizar y reciclar las hojas que utilizamos en colegios y escuelas es primordial. Si somos capaces de reciclar una tonelada de papel, estaremos salvando la vida a 17 árboles.</string>
+</resources>

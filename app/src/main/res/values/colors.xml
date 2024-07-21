@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Primario">#99AE44</color>
+    <color name="Secundario">#2D402D</color>
+    <color name="Secundario2">#4D6214</color>
+    <color name="Tercero">#608B39</color>
+    <color name="Cuarto">#548237</color>
+    <color name="Quinto">#1F291E</color>
+    <color name="Sexto">#4F7834</color>
+    <color name="Septimo">#75944F</color>
+</resources>
