@@ -30,7 +30,7 @@
         android:id="@+id/tilName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nombre"
+        android:hint="Usuario"
         app:endIconMode="clear_text"
         app:startIconDrawable="@drawable/bxs_user">
 
@@ -44,23 +44,6 @@
             tools:ignore="RtlSymmetry" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tilLastName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="7sp"
-        android:hint="Apellido"
-        app:endIconMode="clear_text"
-        app:startIconDrawable="@drawable/bxs_user">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etLastName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#8DFFFFFF"
-            android:paddingStart="38dp"
-            android:inputType="textPersonName" />
-    </com.google.android.material.textfield.TextInputLayout>
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -118,16 +101,15 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <CheckBox
-        android:id="@+id/cbTerms"
+        android:id="@+id/checkBoxRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="He leído y acepto todos los términos y condiciones."
-
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnAceptar"
+        android:id="@+id/btnRegistrar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="start"

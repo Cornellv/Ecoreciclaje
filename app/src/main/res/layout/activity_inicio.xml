@@ -18,12 +18,13 @@
         app:layout_constraintVertical_bias="0.12"
         app:srcCompat="@drawable/logo" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button1"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:backgroundTint="#75944F"
         android:text="Iniciar Sesion"
+        android:background="@drawable/button_inicio"
+        android:textSize="30sp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:textColor="@color/white"
@@ -31,19 +32,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/Logov1"
-        android:autoSizeTextType="uniform"
+
         tools:ignore="HardcodedText" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:backgroundTint="#75944F"
+        android:background="@drawable/button_inicio"
+        android:textSize="30sp"
+        android:textColor="@color/white"
         android:text="Registrarse"
         android:layout_marginStart="50dp"
-        android:autoSizeTextType="uniform"
         android:layout_marginEnd="50dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button1"

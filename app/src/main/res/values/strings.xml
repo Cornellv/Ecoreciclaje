@@ -12,6 +12,9 @@
         <item>MA</item>
     </string-array>
 
+    <!--Spinner-->
+    <string name="spinner_prompt">SELECCIONE UNA OPCIÓN</string>
+
     <!--textos-->
     <string name="text1">La estrategia, clave para la transición energética, empezó en noviembre de 2023. Pero, aún faltan elementos para que despegue.</string>
     <string name="text2">Aunque hay varias técnicas para desalinizar, el gasto de energía y la gestión de los residuos que se generan plantean retos.</string>

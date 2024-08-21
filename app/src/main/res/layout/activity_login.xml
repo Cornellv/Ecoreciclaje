@@ -33,7 +33,7 @@
         app:startIconDrawable="@drawable/bxs_user">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etEmail"
+            android:id="@+id/textEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
@@ -51,12 +51,13 @@
         app:startIconDrawable="@drawable/bxs_key">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etContraseña"
+            android:id="@+id/txtContraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
             android:background="#8DFFFFFF"
+            android:inputType="textPassword"
             android:paddingStart="38dp" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -88,7 +89,9 @@
         android:id="@+id/olvidaContraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¿No tienes en cuenta?"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="¿No tienes en cuenta? Registrate"
         android:textColor="#157ED1"
         android:layout_marginTop="15dp"
         />

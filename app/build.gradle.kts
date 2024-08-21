@@ -32,13 +32,20 @@ android {
 }
 
 dependencies {
+    implementation ("org.jetbrains.kotlin:kotlin-stdlib:1.8.22")  // Usa la versión más reciente que estés utilizando
+    implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22")  // Asegúrate de que la versión sea consistente con la anterior
+
+
+    implementation ("androidx.viewpager2:viewpager2:1.1.0")
+    implementation ("com.google.android.material:material:1.8.0")
 
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-
-    implementation ("org.quanqi:android-holo.graph:0.1.0")
+    implementation("androidx.activity:activity:1.9.1")
+    implementation("androidx.cardview:cardview:1.0.0")
+    
     testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("androidx.test.ext:junit:1.2.1")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
 }
